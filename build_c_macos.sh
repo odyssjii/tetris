@@ -1,0 +1,1 @@
+/usr/bin/clang -std=c99 -g src/tetris.c -o build/tetris -Wall -lsdl2 -lsdl2_ttf  -I /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/ -I /usr/local/Cellar/sdl2_ttf/2.0.15/include/SDL2/ -L /usr/local/Cellar/sdl2/2.0.12_1/lib/ -L /usr/local/Cellar/sdl2_ttf/2.0.15/lib
